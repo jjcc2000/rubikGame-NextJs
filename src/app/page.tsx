@@ -15,7 +15,7 @@ export default function Home() {
       router.push("/cube");
       console.log("there is a session");
     }
-  }, [session, router]);
+  }, [session]);
 
 
   return (
